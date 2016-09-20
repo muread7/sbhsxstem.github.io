@@ -29,11 +29,16 @@ h6 {
     font-weight: 700;
     letter-spacing: 1px;
 }
+h1 img{
+    width: 100%;
+    height: auto;
+}
 
 p {
     margin: 0 0 25px;
     font-size: 18px;
     line-height: 1.5;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 @media(min-width:768px) {
@@ -372,3 +377,27 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
+
+.a {
+  border-right: 2px solid #eee;
+  border-bottom: 2px solid #eee;
+  border-radius: 2px;
+  color: #eee;
+  display: inline-block;
+  font-size: 0;
+  height: 20px;
+  line-height: 0;
+  margin-top: -25px;
+  text-align: center;
+  vertical-align: middle;
+  width: 20px;
+  
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(45deg);
+}
+
+
+
