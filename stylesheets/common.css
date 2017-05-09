@@ -1,0 +1,106 @@
+/* BASIC LAYOUT*/
+    html, body, .mdl-grid {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .social {
+        display: block;
+        width:  300px;
+        margin: auto;
+    }
+
+/* Panel Sizing */
+    section, header {
+        min-height: 100vh;
+    }
+    
+    @media only screen and (min-width:1025px){
+        section {
+            min-height: 92vh;
+        }
+    }
+
+/* Drawer */
+    .mdl-layout__drawer .mdl-layout-title {
+        padding: 30px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .mdl-layout__drawer .mdl-navigation__link {
+        font-size: 20px;
+    }
+
+    .mdl-layout__drawer-button {
+        padding: 20px;
+    }
+
+    .mdl-layout__drawer-button .material-icons{
+        font-size: 60px;
+        text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    }
+
+.mdl-card, .center {
+    display: block;
+    margin: auto;
+}
+
+.section-a {
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+.section-b{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+/* Header */
+.tsa-header-section {
+  background: url('../images/hackathon-bg.jpg') center / cover;
+}
+
+.tsa-header-navbar {
+    background-color: white;
+    box-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+    height:8vh;
+}
+.tsa-header-logo {
+  display: block;
+  margin: auto;
+  width: 48%;
+  height: 48%;
+}
+
+.tsa-header .mdl-layout__drawer,
+.tsa-header .mdl-navigation__link,
+.tsa-header .mdl-layout__header-row {
+  color: black;
+  text-shadow: -1px 0 white, 0 2px white, 1px 0 white, 0 -1px white;
+
+  font-weight: bold;
+}
+
+/* Cards */
+.event-card {
+    top: 10vw;
+    display: block;
+    width: 100%;
+    height: 50%;
+    margin: auto;
+}
+
+
+.mdl-card__supporting-text img {
+    padding: 5%;
+    width: 90%;
+    height: 90%;
+    object-position: center;
+    box-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;
+}
+
+/* Active Sections */
+#events {
+    display: none;
+}
